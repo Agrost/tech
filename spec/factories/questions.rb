@@ -4,7 +4,3 @@ FactoryBot.define do
     body "MyText"
   end
 end
-
-class Question < ActiveRecord::Base
-  validates :title, :body, presence: true
-end
