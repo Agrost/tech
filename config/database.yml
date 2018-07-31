@@ -5,8 +5,8 @@ default: &default
 
 development:
   <<: *default
-  database: qa_development
+  database: db/development.sqlite3
 
 test:
   <<: *default
-  database: qa_test
+  database: db/test.sqlite3
